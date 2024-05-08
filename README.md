@@ -41,3 +41,11 @@ To run the Cache measurement:
 make cacheTest
 ```
 
+## 测试 ANDROID 平台
+
+```
+adb connect 目标测试平台
+./run_android.sh
+```
+
+结果会在工程目录的 `Data.png`
